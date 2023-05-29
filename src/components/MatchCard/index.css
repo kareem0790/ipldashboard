@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.match-card-list-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e293b;
+  width: 46%;
+  margin: auto;
+  padding: 10px;
+  margin-right: 10px;
+  list-style-type: none;
+  justify-content: center;
+  padding-left: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .match-card-list-item {
+    margin-bottom: 15px;
+    padding-left: 0px;
+    width: 30%;
+    margin-right: 10px;
+    margin-right: auto;
+  }
+}
+
+.match-card-image {
+  height: 50px;
+  width: 40px;
+}
+@media screen and (min-width: 768px) {
+  .match-card-image {
+    width: 80px;
+    height: 90px;
+  }
+}
+
+.match-card-competing-team-name {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  font-weight: 0;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .match-card-competing-team-name {
+    font-size: 16px;
+  }
+}
+
+.match-card-result {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  font-weight: 0;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .match-card-result {
+    font-size: 16px;
+  }
+}
+
+.match-card-status {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 0;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .match-card-status {
+    font-size: 22px;
+  }
+}
+
+.won {
+  color: #18ed66;
+}
+.lost {
+  color: #e31a1a;
+}
